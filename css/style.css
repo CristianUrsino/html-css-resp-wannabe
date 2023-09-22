@@ -127,11 +127,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media screen and (max-width: 1160px) {
+    .container{
+        width: 100%;
+    }
+}
+/* questa parte è resa "inutile" dalla precedente */
 @media screen and (max-width: 768px) {
     .container{
         width: 100%;
     }
 }
+
 @media screen and (max-width:480px) {
     section.why-us{
         background-color: #222222;
@@ -149,8 +156,7 @@ img {
     main .why-us .col,
     main .lessons h2,
     main .steps h2,
-    main .why-us h2
-       {
+    main .why-us h2{
         width: 80%;
         margin: 0 auto 80px;
     }
