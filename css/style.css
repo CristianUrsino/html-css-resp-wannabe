@@ -153,11 +153,14 @@ img {
     }
     main .lessons .col,
     main .steps .col,
-    main .why-us .col,
-    main .lessons h2,
-    main .steps h2,
-    main .why-us h2{
-        width: 80%;
+    main .why-us .col{
+        width: 90%;
         margin: 0 auto 80px;
+    }
+    main section .col:last-child{
+        margin-bottom: 30px;
+    }
+    .container{
+        width: 90%;
     }
 }
