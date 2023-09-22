@@ -132,3 +132,26 @@ img {
         width: 100%;
     }
 }
+@media screen and (max-width:480px) {
+    section.why-us{
+        background-color: #222222;
+        margin: 0;
+        padding-top: 3rem;
+    }
+    section.steps{
+        margin-bottom: 0;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    main .lessons .col,
+    main .steps .col,
+    main .why-us .col,
+    main .lessons h2,
+    main .steps h2,
+    main .why-us h2
+       {
+        width: 80%;
+        margin: 0 auto 80px;
+    }
+}
